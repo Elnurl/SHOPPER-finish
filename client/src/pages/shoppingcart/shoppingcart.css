@@ -1,0 +1,185 @@
+.h1 {
+  margin-left: 40rem;
+  font-size: 1.4rem;
+}
+.shopcart {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+margin-bottom: 2rem;
+  
+}
+input {
+  width: 15rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 1px solid rgb(188, 188, 188);
+}
+.costrow .Total {
+  padding-top: 1.5rem;
+  margin-top: 5rem !important;
+}
+.shopcart .cupon {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  border-top: 1px solid rgb(189, 186, 186);
+}
+.shopcart .cupon .cupon1 button {
+  width: 5rem;
+  height: 2.6rem;
+  color: rgb(246, 237, 237);
+  background: black;
+  margin-left: 1rem;
+}
+.shopcart .cupon h4 {
+  margin-bottom: 0.5rem;
+}
+.shopcart .cupon .btn {
+  padding: 0;
+}
+.shopcart .cupon .btn button {
+  margin: 0;
+  height: 2.6rem;
+  background: white;
+  margin-top: 3rem;
+  width: 8rem;
+  border: 1px solid;
+}
+.shopcart .selected {
+  width: 35em;
+}
+.shopcart .Total {
+  background-color: rgb(241, 241, 241);
+  margin-top: 10rem;
+  margin-right: 10rem;
+  width: 22rem;
+  height: 18rem;
+}
+
+.shopcart .Total .subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  border-bottom: 1px solid rgb(189, 186, 186);
+}
+.shopcart .Total .tax {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  border-bottom: 1px solid rgb(189, 186, 186);
+}
+.shopcart .Total .total {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  border-bottom: 1px solid rgb(189, 186, 186);
+}
+.costrow button {
+  background: black;
+  color: white;
+  border: none;
+  width: 22rem;
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+.shopcart .Total .p {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.costrow a {
+  text-decoration: none;
+  color: black;
+}
+.costrow .coun {
+  margin-top: 1rem;
+}
+
+.selected {
+  margin-left: 4.5rem;
+  margin-top: 5rem;
+}
+.selected .kart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  /* border-bottom: 1px solid rgb(171, 169, 169); */
+  border-top: 1px solid rgb(189, 186, 186);
+}
+.selected .kart .bttn {
+  border: none;
+  background: white;
+  color: grey;
+  font-family: "Montserrat", sans-serif;
+}
+.selected .kart img {
+  width: 6rem;
+  height: 8rem;
+}
+.selected .kart .img {
+  display: flex;
+}
+.numItem {
+  margin-left: 1rem;
+  padding: 0;
+  width: 10rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding: 0.5rem;
+  border: 1px solid rgb(179, 176, 176);
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.numItem button {
+  
+  border-radius: 20px ;
+  border: none;
+  /* border-right: 1px solid rgb(169, 166, 166); */
+  background-color: white;
+  color: rgb(149, 145, 145);
+ border: 1px solid rgb(179, 176, 176);
+  margin-right: 1vw;
+  margin-left: 1vw;
+  width: 1.5rem;
+ 
+/* 
+  margin: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0; */
+}
+.empty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 5rem;
+  
+}
+.empty  .emping
+{
+margin-top: 5rem;
+margin-bottom: 2rem;
+
+  width: 10rem;
+}
+.coment a{ 
+margin-top: 0.378rem;
+color:rgb(71, 68, 68);
+text-decoration: underline;
+}
+ .coment{
+ display: flex;
+ justify-content: center;
+}
+.coment h3{
+ display: flex;
+ justify-content: center;
+}
